@@ -53,9 +53,4 @@ def tanya ():
  else:
   print "Salah input"
 
-username = raw_input('Username : ')
-password = input('Password : ')
-if username == "kalkkk" and password == "kall1134":
- menu()
-else:
- print "LOGIN GAGAL"
+menu()
