@@ -55,7 +55,7 @@ def tanya ():
 
 username = raw_input("Username : ")
 password = input("Password : ")
-if username == "kalkkk" and password == kall1134:
+if username == "kalkkk" and password == "kall1134":
  menu()
 else:
  print "LOGIN GAGAL"
