@@ -1,8 +1,9 @@
+merah="33[31;1m"
 def menu ():
- print "----- MENU -----"
- print "1. KASIR"
- print "2. KALKULATOR"
- print "----------------"
+ print merah+"----- MENU -----"
+ print merah+"1. KASIR"
+ print merah+"2. KALKULATOR"
+ print merah+"----------------"
  pilih = input("Pilih menu : ")
  if pilih == 1:
   kasir()
